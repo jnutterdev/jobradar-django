@@ -1,0 +1,33 @@
+---
+URL: https://www.linkedin.com/jobs/view/4153481586/
+Source: linkedin
+Saved: 2026-11-11
+Title: Full Stack Engineer
+Company: Entefy
+---
+
+We are looking for an exceptional, broadly experienced software engineer to join the Entefy team, building a full stack application from frontend to backend services with multiple databases to make things interesting. Can you wear many hats? If so, at Entefy, you can help build the next-generation platform to transform digital interaction for people and thinking machines. You will not only be a coder, but rather a key contributor in building highly impactful technology used by some of the largest companies in the world.
+
+Skills and Experience:
+
+It takes something special to join the Entefy mission. Specifically, it takes creativity, curiosity, and collaboration. The ideal candidate for this role possesses:
+
+Requirements:
+
+4+ years of relevant backend and web experience
+Deep knowledge in Node.js and SQL
+Strong working knowledge of front-end JavaScript and modern libraries, ideally React.js and Next.js
+Proven track record in architecting and building scalable systems
+ETP (Exceptional Technical Prowess)
+Courage to innovate and fail
+Strong collaboration and communication skills
+Experience with large distributed data systems
+Ability to build highly performant APIs to power data visualizations
+Experience dealing with scalability requirements and performance improvements
+Know-how dealing with building and maintaining complex event-driven systems is a plus (i.e. Kafka)
+Prior experience with Continuous Integration and test-driven development is a plus
+Startup experience is a plus
+
+Visit www.entefy.com and www.entefy.com/blog
+
+We may use artificial intelligence (AI) tools to support parts of the hiring process, such as reviewing applications, analyzing resumes, or assessing responses and identifying potential inconsistencies or verification signals in application materials based on available information. These tools assist our recruitment team but do not replace human judgment. Final hiring decisions are ultimately made by humans. If you would like more information about how your data is processed, please contact us.

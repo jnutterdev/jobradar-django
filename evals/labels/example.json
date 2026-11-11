@@ -1,0 +1,19 @@
+{
+    "01-reddit-fe": {
+        "title": "frontend engineer",
+        "company": "reddit",
+        "seniority": "mid",
+        "work_mode": "remote",
+        "required_skills": [
+            "JavaScript",
+            "TypeScript",
+            "REST APIs",
+            "React",
+            "Next.js",
+            "GraphQL",
+            "gRPC"
+        ],
+        "gut_score": 90,
+        "gut_reason": "The general qualifications match my stack, but the position can span across different backend and frontend roles, and also trust and safety."
+    }
+}
