@@ -1,0 +1,92 @@
+{
+  "01-reddit-fe": {
+    "company": "reddit",
+    "title": "front end software engineer, consumer engineering",
+    "seniority": null,
+    "work_mode": null,
+    "required_skills": null,
+    "gut_score": null,
+    "gut_reason": null
+  },
+  "02-bloomerang-sr-se": {
+    "company": "bloomerang",
+    "title": "sr. software engineer (php + react/typescript)",
+    "seniority": null,
+    "work_mode": null,
+    "required_skills": null,
+    "gut_score": null,
+    "gut_reason": null
+  },
+  "03-nebius-sr-fe": {
+    "company": "nebius",
+    "title": "senior frontend engineer",
+    "seniority": null,
+    "work_mode": null,
+    "required_skills": null,
+    "gut_score": null,
+    "gut_reason": null
+  },
+  "04-figma-se": {
+    "company": "figma",
+    "title": "software engineer - growth & monetization",
+    "seniority": null,
+    "work_mode": null,
+    "required_skills": null,
+    "gut_score": null,
+    "gut_reason": null
+  },
+  "05-pinterest-sr-se": {
+    "company": "pinterest",
+    "title": "sr software engineer, epd ads",
+    "seniority": null,
+    "work_mode": null,
+    "required_skills": null,
+    "gut_score": null,
+    "gut_reason": null
+  },
+  "06-jobgether-sr-se": {
+    "company": "jobgether",
+    "title": "sr. software engineer (php + react/typescript)",
+    "seniority": null,
+    "work_mode": null,
+    "required_skills": null,
+    "gut_score": null,
+    "gut_reason": null
+  },
+  "07-entefy-fse": {
+    "company": "entefy",
+    "title": "full stack engineer",
+    "seniority": null,
+    "work_mode": null,
+    "required_skills": null,
+    "gut_score": null,
+    "gut_reason": null
+  },
+  "08-tekmetric-sr-fe": {
+    "company": "tekmetric",
+    "title": "senior software engineer (frontend)",
+    "seniority": null,
+    "work_mode": null,
+    "required_skills": null,
+    "gut_score": null,
+    "gut_reason": null
+  },
+  "09-seatgeek-sr-fse": {
+    "company": "seatgeek",
+    "title": "senior software engineer, fullstack",
+    "seniority": null,
+    "work_mode": null,
+    "required_skills": null,
+    "gut_score": null,
+    "gut_reason": null
+  },
+  "10-mfl-sr-fe": {
+    "company": "modern family law",
+    "title": "senior frontend react engineer",
+    "seniority": null,
+    "work_mode": null,
+    "required_skills": null,
+    "gut_score": null,
+    "gut_reason": null
+  }
+}
