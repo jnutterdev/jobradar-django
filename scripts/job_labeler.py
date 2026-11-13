@@ -9,10 +9,18 @@ REPO_ROOT = p.parent.parent
 POSTINGS_DIR = REPO_ROOT / "evals" / "postings"
 LABELS_DIR = REPO_ROOT / "evals" / "labels"
 LABELS_DIR.mkdir(exist_ok=True)
+LABELS_FILE = LABELS_DIR / "labels.json"
 
-labels = {}
+if LABELS_FILE.exists():
+    with open(LABELS_FILE, "r", encoding="utf-8") as f:
+        labels = json.load(f)
+else:
+    labels = {}
 
 for post in sorted(POSTINGS_DIR.glob("*.md")):
+    if post.stem in labels:
+        continue
+
     metadata, content = frontmatter.parse(post.read_text(encoding="utf-8"))
 
     post_content = {
@@ -27,5 +35,5 @@ for post in sorted(POSTINGS_DIR.glob("*.md")):
 
     labels[post.stem] = post_content
 
-with open(LABELS_DIR / "labels.json", "w", encoding="utf-8") as f:
+with open(LABELS_FILE, "w", encoding="utf-8") as f:
     json.dump(labels, f, indent=2)
