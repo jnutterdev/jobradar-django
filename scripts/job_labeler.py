@@ -1,17 +1,19 @@
 import json
 from pathlib import Path
+from typing import Any
 
 import frontmatter
 
 p = Path(__file__).resolve()
 
+Labels = dict[str, dict[str, Any]]
 REPO_ROOT = p.parent.parent
 POSTINGS_DIR = REPO_ROOT / "evals" / "postings"
 LABELS_DIR = REPO_ROOT / "evals" / "labels"
 LABELS_FILE = LABELS_DIR / "labels.json"
 
 
-def load_labels(labels_path: Path) -> dict:
+def load_labels(labels_path: Path) -> dict[str, Labels]:
     if labels_path.exists():
         with open(labels_path, "r", encoding="utf-8") as f:
             labels = json.load(f)
@@ -21,7 +23,7 @@ def load_labels(labels_path: Path) -> dict:
     return labels
 
 
-def update_labels(labels: dict, posts_dir: Path) -> dict:
+def update_labels(labels: dict, posts_dir: Path) -> dict[str, Labels]:
     for post in sorted(posts_dir.glob("*.md")):
         if post.stem in labels:
             continue
