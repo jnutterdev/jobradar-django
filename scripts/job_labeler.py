@@ -13,7 +13,7 @@ LABELS_DIR = REPO_ROOT / "evals" / "labels"
 LABELS_FILE = LABELS_DIR / "labels.json"
 
 
-def load_labels(labels_path: Path) -> dict[str, Labels]:
+def load_labels(labels_path: Path) -> Labels:
     if labels_path.exists():
         with open(labels_path, "r", encoding="utf-8") as f:
             labels = json.load(f)
@@ -23,7 +23,7 @@ def load_labels(labels_path: Path) -> dict[str, Labels]:
     return labels
 
 
-def update_labels(labels: dict, posts_dir: Path) -> dict[str, Labels]:
+def update_labels(labels: Labels, posts_dir: Path) -> Labels:
     for post in sorted(posts_dir.glob("*.md")):
         if post.stem in labels:
             continue
@@ -45,7 +45,7 @@ def update_labels(labels: dict, posts_dir: Path) -> dict[str, Labels]:
     return labels
 
 
-def write_labels(labels: dict, labels_file: Path) -> None:
+def write_labels(labels: Labels, labels_file: Path) -> None:
     labels_file.parent.mkdir(exist_ok=True)
 
     with open(labels_file, "w", encoding="utf-8") as f:
