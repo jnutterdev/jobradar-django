@@ -19,6 +19,8 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 env = environ.Env(
     DEBUG=(bool, False),
+    RADAR_DEMO_MODE=(bool, False),
+    ALLOWED_HOSTS=(list, []),
 )
 
 # Quick-start development settings - unsuitable for production
@@ -32,6 +34,8 @@ DEBUG = env("DEBUG")
 
 ALLOWED_HOSTS = env("ALLOWED_HOSTS")
 
+RADAR_DEMO_MODE = env("RADAR_DEMO_MODE")
+
 
 # Application definition
 
@@ -43,7 +47,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "rest_framework",
-    "api",
+    "radar",
 ]
 
 MIDDLEWARE = [
